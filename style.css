@@ -5,10 +5,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: lightslategray;
 }
 
 header {
-    background-color: #333;
+    background-color: navy;
     color: white;
     padding: 10px;
     text-align: center;
@@ -19,6 +20,9 @@ header {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .weather-card {
@@ -30,3 +34,49 @@ header {
     margin: 0 10px;
 }
 
+#currentWeather {
+    background-color: cadetblue;
+    border-radius: 5 px;
+    justify-content: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#forecast {
+    padding: 2px;
+    background-color: brown;
+    text-align: left;
+}
+
+#searchHistory {
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+}
+
+.emoji {
+    background-color: bisque;
+    padding: 10px;
+}
+
+
+.forecast-day {
+    background-color: cadetblue;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 150px;
+    text-align: right;
+    margin: 0 10px;
+}
+
+.image-container {
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+
+.forecast-row {
+    display: flex;
+    justify-content: space-around;
+}
